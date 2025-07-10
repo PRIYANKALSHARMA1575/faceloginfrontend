@@ -1,0 +1,70 @@
+/* StudentLogin.css or StudentRegistration.css */
+
+body {
+  background: linear-gradient(to bottom right, #60d394, #48c78e); /* green shades */
+}
+
+.login-container, .register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box, .register-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.login-box h2, .register-box h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.input-label {
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-input, .register-box input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.method-select {
+  margin-bottom: 1rem;
+}
+
+button.capture-button, button.login-button, button.register-button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #7e57c2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.capture-button:hover,
+button.login-button:hover,
+button.register-button:hover {
+  background-color: #673ab7;
+}
+
+.preview-image, .webcam {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

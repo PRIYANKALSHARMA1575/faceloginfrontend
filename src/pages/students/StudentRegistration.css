@@ -1,0 +1,88 @@
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #38a169, #68d391);
+  padding: 20px;
+}
+
+.register-box {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+.method-select {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.method-select label {
+  font-size: 14px;
+}
+
+.live-choice {
+  margin-bottom: 10px;
+}
+
+.file-input {
+  margin: 10px auto;
+}
+
+.capture-button {
+  background-color: #6b46c1;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.capture-button:hover {
+  background-color: #553c9a;
+}
+
+.register-button {
+  background-color: #6b46c1;
+  color: white;
+  padding: 12px;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #553c9a;
+}
+.camera-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.webcam-view, .preview-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}

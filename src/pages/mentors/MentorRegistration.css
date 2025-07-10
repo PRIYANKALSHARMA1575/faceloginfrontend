@@ -1,0 +1,53 @@
+.mentorContainer {
+  background: linear-gradient(to bottom right, #ffb347, #ffcc33);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentorBox {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.mentorInput {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.methodSelect {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.captureButton,
+.registerButton {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.captureButton:hover,
+.registerButton:hover {
+  background-color: #e65100;
+}
+
+.previewImage,
+.webcamView {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

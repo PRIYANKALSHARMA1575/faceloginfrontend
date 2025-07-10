@@ -1,0 +1,23 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.complete-profile-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.complete-profile-btn:hover {
+  background-color: #3953c9;
+}
