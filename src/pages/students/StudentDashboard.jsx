@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Notification from "../../components/Notification";
+//import Notification from "../../components/Notification";
 import NavigationBar from "../../components/NavigationBar";
 import "./StudentDashboard.css";
 
